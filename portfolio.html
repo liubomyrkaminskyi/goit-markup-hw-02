@@ -5,29 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
+    <!-- Font styles -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Custom styles -->
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <!-- Header section -->
     <header>
       <nav>
-        <a href="./index.html">WebStudio</a>
-        <ul>
+        <a href="./index.html" class="logo link"> <span class="logo-part">Web</span>Studio</a>
+        <ul class="list">
           <li>
-            <a href="./index.html">Studio</a>
+            <a href="./index.html" class="link link-address">Studio</a>
           </li>
           <li>
-            <a href="./portfolio.html">Portfolio</a>
+            <a href="./portfolio.html" class="link link-address current">Portfolio</a>
           </li>
           <li>
-            <a href="">Contacts</a>
+            <a href="" class="link link-address">Contacts</a>
           </li>
         </ul>
       </nav>
       <address>
-        <ul>
-          <li> <a href="mailto:info@devstudio.com">info@devstudio.com</a> </li>
-          <li> <a href="tel:+110001111111">+11 (000) 111-11-11</a> </li>
+        <ul class="list">
+          <li>
+            <a href="mailto:info@devstudio.com" class="link contacts-address link-address"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:+110001111111" class="link contacts-address link-address"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
         </ul>
       </address>
     </header>
@@ -36,17 +52,18 @@
       <!-- Main section -->
       <section>
         <h1 hidden>Portfolio</h1>
-        <ul>
-          <li><button type="button">All</button></li>
-          <li><button type="button">Web Site</button></li>
-          <li><button type="button">App</button></li>
-          <li><button type="button">Design</button></li>
-          <li><button type="button">Marketing</button></li>
-
+        <ul class="list">
+          <li><button type="button" class="btn filter-btn">All</button></li>
+          <li><button type="button" class="btn filter-btn">Web Site</button></li>
+          <li><button type="button" class="btn filter-btn">App</button></li>
+          <li><button type="button" class="btn filter-btn">Design</button></li>
+          <li><button type="button" class="btn filter-btn">Marketing</button></li>
+        </ul>
+        <ul class="list">
           <li>
             <img src="./images/portfolio/img1.jpg" alt="Banking App" width="360" height="300" />
-            <h3 class="portfolio-photo-title">Banking App Interface Concept</h3>
-            <p class="portfolio-photo-type">App</p>
+            <h3 class="photo-name">Banking App Interface Concept</h3>
+            <p>App</p>
           </li>
           <li>
             <img
@@ -55,18 +72,18 @@
               width="360"
               height="300"
             />
-            <h3 class="portfolio-photo-title">Cashless Payment</h3>
-            <p class="portfolio-photo-type">Marketing</p>
+            <h3 class="photo-name">Cashless Payment</h3>
+            <p>Marketing</p>
           </li>
           <li>
             <img src="./images/portfolio/img3.jpg" alt="Meditation App" width="360" height="300" />
-            <h3 class="portfolio-photo-title">Meditation App</h3>
-            <p class="portfolio-photo-type">App</p>
+            <h3 class="photo-name">Meditation App</h3>
+            <p>App</p>
           </li>
           <li>
             <img src="./images/portfolio/img4jpg.jpg" alt="Taxi service" width="360" height="300" />
-            <h3 class="portfolio-photo-title">Taxi Service</h3>
-            <p class="portfolio-photo-type">Marketing</p>
+            <h3 class="photo-name">Taxi Service</h3>
+            <p>Marketing</p>
           </li>
           <li>
             <img
@@ -75,13 +92,13 @@
               width="360"
               height="300"
             />
-            <h3 class="portfolio-photo-title">Screen Illustrations</h3>
-            <p class="portfolio-photo-type">Design</p>
+            <h3 class="photo-name">Screen Illustrations</h3>
+            <p>Design</p>
           </li>
           <li>
             <img src="./images/portfolio/img6.jpg" alt="Online Courses" width="360" height="300" />
-            <h3 class="portfolio-photo-title">Online Courses</h3>
-            <p class="portfolio-photo-type">Marketing</p>
+            <h3 class="photo-name">Online Courses</h3>
+            <p>Marketing</p>
           </li>
           <li>
             <img
@@ -90,26 +107,26 @@
               width="360"
               height="300"
             />
-            <h3 class="portfolio-photo-title">Instagram Stories Concept</h3>
-            <p class="portfolio-photo-type">Design</p>
+            <h3 class="photo-name">Instagram Stories Concept</h3>
+            <p>Design</p>
           </li>
           <li>
             <img src="./images/portfolio/img8.jpg" alt="Organic Food" width="360" height="300" />
-            <h3 class="portfolio-photo-title">Organic Food</h3>
-            <p class="portfolio-photo-type">Web Site</p>
+            <h3 class="photo-name">Organic Food</h3>
+            <p>Web Site</p>
           </li>
           <li>
             <img src="./images/portfolio/img9.jpg" alt="Fresh Coffee" width="360" height="300" />
-            <h3 class="portfolio-photo-title">Fresh Coffee</h3>
-            <p class="portfolio-photo-type">Web Site</p>
+            <h3 class="photo-name">Fresh Coffee</h3>
+            <p>Web Site</p>
           </li>
         </ul>
       </section>
     </main>
     <!-- Footer section -->
-    <footer>
-      <a href="./index.html">WebStudio </a>
-      <p>
+    <footer class="footer">
+      <a href="./index.html" class="logo link"> <span class="logo-part">Web</span>Studio</a>
+      <p class="footer-text">
         Increase the flow of customers and sales for your business with digital marketing & growth
         solutions.
       </p>
