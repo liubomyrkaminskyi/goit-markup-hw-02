@@ -87,7 +87,9 @@ body {
 }
 
 .link-info:hover,
-.link-info:focus {
+.link-info:focus,
+.link-menu:hover,
+.link-menu:focus {
   color: var(--accent-txt-cl);
 }
 
