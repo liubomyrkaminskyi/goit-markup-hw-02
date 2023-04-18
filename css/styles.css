@@ -71,25 +71,25 @@ body {
   list-style: none;
 }
 
-.link {
+.unit {
   color: inherit;
   text-decoration: none;
 }
 
-.link-menu {
+.unit-menu {
   font-weight: 500;
   line-height: 1.5;
   color: var(--subtitle-cl);
 }
 
-.link-info {
+.unit-info {
   font-style: normal;
 }
 
-.link-info:hover,
-.link-info:focus,
-.link-menu:hover,
-.link-menu:focus {
+.unit-info:hover,
+.unit-info:focus,
+.unit-menu:hover,
+.unit-menu:focus {
   color: var(--accent-txt-cl);
 }
 
