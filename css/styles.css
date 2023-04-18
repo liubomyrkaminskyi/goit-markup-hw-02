@@ -89,9 +89,15 @@ body {
 .logo {
   text-transform: uppercase;
   font-family: var(--secondary-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color: var(--logo-part-cl);
 }
 .logo-part {
-  color: var(--logo-part-cl);
+  color: var(--subtitle-cl);
 }
 
 /* Main content */
