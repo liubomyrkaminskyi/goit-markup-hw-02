@@ -37,6 +37,8 @@ body {
   background-color: var(--supporting-bg-cl);
 }
 
+/* Header */
+
 /* Buttons */
 .btn {
   font-family: inherit;
@@ -87,11 +89,6 @@ body {
 
 .list {
   list-style: none;
-}
-
-.link {
-  color: inherit;
-  text-decoration: none;
 }
 
 .unit {
