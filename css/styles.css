@@ -76,8 +76,18 @@ body {
   text-decoration: none;
 }
 
-.link-address:hover,
-.link-address:focus {
+.link-menu {
+  font-weight: 500;
+  line-height: 1.5;
+  color: var(--subtitle-cl);
+}
+
+.link-info {
+  font-style: normal;
+}
+
+.link-info:hover,
+.link-info:focus {
   color: var(--accent-txt-cl);
 }
 
@@ -96,8 +106,13 @@ body {
   letter-spacing: 0.03em;
   color: var(--logo-part-cl);
 }
+
 .logo-part {
   color: var(--subtitle-cl);
+}
+
+.logo-part-bottom {
+  color: var(--secondary-bg-cl);
 }
 
 /* Main content */
@@ -109,9 +124,6 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--main-header-cl);
-}
-.contacts-address {
-  font-style: normal;
 }
 
 .subtitle {
