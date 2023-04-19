@@ -47,7 +47,6 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   color: var(--logo-part-cl);
-    text-decoration: none;
 }
 
 .logo-part {
@@ -192,4 +191,8 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.link {
+  text-decoration: none;
 }
