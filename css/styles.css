@@ -37,21 +37,56 @@ body {
   background-color: var(--supporting-bg-cl);
 }
 
-/* Header */
+/* Logo */
+.logo {
+  text-transform: uppercase;
+  font-family: var(--secondary-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color: var(--logo-part-cl);
+    text-decoration: none;
+}
 
+.logo-part {
+  color: var(--subtitle-cl);
+}
+
+.logo-part-bottom {
+  color: var(--secondary-bg-cl);
+}
+
+/* Menu */
+.unit-menu {
+  font-weight: 500;
+  line-height: 1.5;
+  color: var(--subtitle-cl);
+  text-decoration: none;
+}
+
+.unit-info {
+  font-style: normal;
+  text-decoration: none;
+  color: inherit;
+}
+
+.unit-info:hover,
+.unit-info:focus,
+.unit-menu:hover,
+.unit-menu:focus {
+  color: var(--accent-txt-cl);
+}
 
 /* Benefits */
 .benefit-unit {
-  
 }
 
 /* Buttons */
-.btn {
+.main-btn {
   font-family: inherit;
   cursor: pointer;
-}
-
-.main-btn {
   background-color: var(--logo-part-cl);
   font-weight: 500;
   font-size: 16px
@@ -67,6 +102,8 @@ body {
 }
 
 .filter-btn-first {
+  font-family: inherit;
+  cursor: pointer;
   background-color: var(--logo-part-cl);
   font-weight: 500;
   font-size: 16px;
@@ -77,6 +114,8 @@ body {
 }
 
 .filter-btn {
+  font-family: inherit;
+  cursor: pointer;
   background-color: var(--secondary-bg-cl);
   font-weight: 500;
   font-size: 16px;
@@ -98,51 +137,6 @@ body {
   list-style: none;
 }
 
-.unit {
-  color: inherit;
-  text-decoration: none;
-}
-
-.unit-menu {
-  font-weight: 500;
-  line-height: 1.5;
-  color: var(--subtitle-cl);
-}
-
-.unit-info {
-  font-style: normal;
-}
-
-.unit-info:hover,
-.unit-info:focus,
-.unit-menu:hover,
-.unit-menu:focus {
-  color: var(--accent-txt-cl);
-}
-
-.current {
-  color: var(--accent-txt-cl);
-}
-
-/* Logo */
-.logo {
-  text-transform: uppercase;
-  font-family: var(--secondary-font);
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  align-items: center;
-  letter-spacing: 0.03em;
-  color: var(--logo-part-cl);
-}
-
-.logo-part {
-  color: var(--subtitle-cl);
-}
-
-.logo-part-bottom {
-  color: var(--secondary-bg-cl);
-}
 
 /* Main content */
 
@@ -172,6 +166,8 @@ body {
   color: var(--subtitle-cl);
 }
 
+/* Team */
+
 .photo-name {
   font-weight: 500;
   font-size: 20px;
@@ -179,6 +175,10 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--subtitle-cl);
+}
+
+.team-unit {
+  background-color: var(--main-bg-cl);
 }
 
 .photo-desc-team {
