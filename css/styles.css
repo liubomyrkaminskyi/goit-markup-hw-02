@@ -101,17 +101,6 @@ body {
   background-color: var(--accent-txt-cl);
 }
 
-.filter-btn-first {
-  font-family: inherit;
-  cursor: pointer;
-  background-color: var(--logo-part-cl);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: var(--main-header-cl);
-}
-
 .filter-btn {
   font-family: inherit;
   cursor: pointer;
@@ -122,13 +111,11 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-    color: var(--logo-part-cl);
+  color: var(--logo-part-cl);
 }
 
 .filter-btn:hover,
-.filter-btn:focus,
-.filter-btn-first:hover,
-.filter-btn-first:focus {
+.filter-btn:focus {
   background-color: var(--accent-txt-cl);
   color: var(--main-bg-cl);
 }
